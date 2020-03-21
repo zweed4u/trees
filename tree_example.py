@@ -12,11 +12,13 @@
 https://pythonspot.com/wp-content/uploads/2015/09/tree.jpg.webp
 """
 
+
 class Node:
     def __init__(self, value):
         self.value = value
         self.left = None
         self.right = None
+
 
 # Setup similar to breadth first search (level-by-level) horizontally
 bfs_root = Node(5)
